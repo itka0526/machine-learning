@@ -1,4 +1,0 @@
-"""
-K-Nearest Neighbors Classifier
-As there is no accepted theory on which the best learning algorithm for each problem type is, my choice falls on the k-Nearest Neighbors Classifier (KNN) mainly for its simplicity: it has few hyperparameters to tune (the number of neighbors to consider k, the distance function, which usually corresponds to the Euclidean or the Manhattan distance) and it is, furthermore, non-parametric (meaning that it does not need assumptions about the data distribution). As a drawback, KNN scales poorly with large datasets because of its intrinsic nature: it has to scan the whole dataset whenever a new example needs to be classified. For this reason, it makes sense to explore additional learning algorithms, such as Decision Trees or Random Forest.
-"""
